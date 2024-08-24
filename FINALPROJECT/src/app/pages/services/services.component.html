@@ -1,0 +1,18 @@
+<section class="services-section">
+  <div class="container">
+    <div class="section-header">
+      <!-- <p>OUR SERVICES</p> -->
+      <h2>All Professional We are Offering Best Solutions & Services</h2>
+    </div>
+    <div class="services-cards">
+      <div *ngFor="let service of services" class="service-card">
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+        <div class="icon">
+          <img [src]="service.icon" alt="{{ service.title }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

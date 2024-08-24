@@ -1,0 +1,33 @@
+.container {
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+
+  h3 {
+    background: linear-gradient(to left, #31ba9c, #142a8d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-align: center;
+    margin: 25px;
+    font-size: 35px;
+  }
+
+  form {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+    .form-control {
+      width: 100%;
+      // max-width: 800px;
+      background-color: #1b1b1b;
+      border: none;
+
+      &:focus {
+        border: 2px solid #243fb8;
+      }
+    }
+
+  }
+
+}
